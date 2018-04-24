@@ -1,0 +1,84 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Nekopara | Chocola and vanilla | Audio visualizer - 1080p\n\n- Nice audio visualizer bars\n- You can add your custom text\n- Stroboscopic blur effects\n- Cute cat girls",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"bottAudioBar" : 
+			{
+				"order" : 3,
+				"text" : "<br />Bottom Audio Bars<br />",
+				"type" : "bool",
+				"value" : false
+			},
+			"customText" : 
+			{
+				"text" : "Custom text",
+				"type" : "textinput",
+				"value" : "nekopara"
+			},
+			"displayCustomText" : 
+			{
+				"order" : 2,
+				"text" : "<br />Display custom text<br />",
+				"type" : "bool",
+				"value" : true
+			},
+			"midAudioBar" : 
+			{
+				"order" : 2,
+				"text" : "<br />Middle Audio Bars<br />",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"sens" : 
+			{
+				"max" : 20,
+				"min" : 2,
+				"order" : 1,
+				"text" : "<br />Audio Sensibility<br />",
+				"type" : "slider",
+				"value" : 20
+			},
+			"textSize" : 
+			{
+				"max" : 250,
+				"min" : 12,
+				"text" : "<br />Custom text size<br />",
+				"type" : "slider",
+				"value" : 60
+			},
+			"textY" : 
+			{
+				"max" : 100,
+				"min" : 0,
+				"text" : "<br />Custom text vertical position<br />",
+				"type" : "slider",
+				"value" : 70
+			},
+			"topAudioBar" : 
+			{
+				"order" : 2,
+				"text" : "<br />Top Audio Bars<br />",
+				"type" : "bool",
+				"value" : false
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Anime" ],
+	"title" : "Nekopara | Chocola and Vanilla",
+	"type" : "web",
+	"visibility" : "public",
+	"workshopid" : 1369599817
+}
